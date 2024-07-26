@@ -1,6 +1,6 @@
 export type TextAreaValue = { value: string };
 
-export type TextareaProps = {
+export type TextareaAutoSizeProps = {
   /** максимальное количество строк при достижении которого textarea перестает увеличиваться
    * по высоте и появляется скролл
    * */

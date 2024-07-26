@@ -2,10 +2,10 @@ import { ChangeEvent, FC } from "react";
 import cx from "classnames";
 import { useAutoSize } from "../utils/useAutoSize";
 import styles from "./index.module.scss";
-import { TextareaProps } from "../types";
+import { TextareaAutoSizeProps } from "../types";
 import { INITIAL_ROWS } from "../constants";
 
-export const TextareaAutoSize: FC<TextareaProps> = ({
+export const TextareaAutoSize: FC<TextareaAutoSizeProps> = ({
   maxRows,
   value,
   onChange,
